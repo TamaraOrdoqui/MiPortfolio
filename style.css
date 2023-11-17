@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: 'PT Serif', serif;
 
 }
@@ -40,16 +39,17 @@
     flex-direction: column;
     text-align: center;
     margin: 15px;
+    margin-bottom: 50px;
 }
 
 .about-me p {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-block: 20px;
 }
 
 .about-me h1 {
     color: #d7a38e;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .about-me button {
@@ -72,7 +72,177 @@ img {
     width: 100%;
 }
 
+.experience h2 {
+    font-size: 2.1875rem;
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+.experience_info {
+    margin: 50px 15px;
+}
+
+.brain {
+    color: #d7a38e
+}
+
 .icons-section {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+.class_icon_experience {
+    display: flex;
+    width: 140px;
+    height: 150px;
+    border-style: groove;
+    margin: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10%;
+    background-color: white;
+}
+
+.class_icon_experience:hover{
+border-color: #c69;
+
+}
+
+.fa-brands {
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+/*ASIGNACION DE COLORES EN ICONOS USANDO BEFORE*/
+.fa-html5::before {
+    color: #e54d26;
+}
+
+.fa-css3-alt::before {
+    color: #3d8fc6;
+}
+
+.fa-sass::before {
+    color: #c69;
+}
+
+.fa-js::before {
+    color: #f0db4f
+}
+
+.fa-react::before {
+    color: #61dafb
+}
+
+.fa-git-alt::before {
+    color: #f34f29;
+}
+
+/*Quote Section */
+.Quote{
+    padding: 50px;
+    width: 100%;
+    background-color: #d7a38e;
+    text-align: center;
+    
+}
+
+.fa-quote-left , .fa-quote-right{
+    font-size: 80px;
+    color: #f5e5d4;
+
+}
+
+.Quote-edits p{
+    color: wheat;
+    font-size: 1.875rem;
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Proyectos section */
+#proyectos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.proyectos_section h2 {
+    padding: 20px;
+    font-size: 2.1875rem;
+}
+
+.proyectos_section p{
+    font-size: 1.25rem;
+}
+
+.img_proyectos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #d7a38e;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px; 
+}
+
+.img_proyectos img{
+        object-fit: contain;
+        aspect-ratio: 3/2;
+        width: 100%;
+}
+
+.img_proyectos a{
+    text-decoration: none;
+    color: #d7a38e;
+}
+
+.img_proyectos:hover{
+    border-color: black;
+}
+
+#section{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.Contactac-me_contact h2{
+    font-size: 2.1875rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.Contactac-me_contact p {
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.app a{
+    color: #d7a38e;
+    text-decoration: none;
+    border-color: #c69;
+}
+.app i{
+    font-size:  20px;
 }
