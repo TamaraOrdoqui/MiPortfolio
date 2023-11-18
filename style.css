@@ -122,27 +122,27 @@ border-color: #c69;
 }
 
 /*ASIGNACION DE COLORES EN ICONOS USANDO BEFORE*/
-.fa-html5::before {
+.fa-html5 {
     color: #e54d26;
 }
 
-.fa-css3-alt::before {
+.fa-css3-alt {
     color: #3d8fc6;
 }
 
-.fa-sass::before {
+.fa-sass{
     color: #c69;
 }
 
-.fa-js::before {
+.fa-js {
     color: #f0db4f
 }
 
-.fa-react::before {
+.fa-react {
     color: #61dafb
 }
 
-.fa-git-alt::before {
+.fa-git-alt {
     color: #f34f29;
 }
 
@@ -210,7 +210,7 @@ border-color: #c69;
     border-color: black;
 }
 
-#section{
+#contactame{
     display: flex;
     flex-direction: column;
 }
@@ -236,6 +236,8 @@ border-color: #c69;
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .app a{
@@ -243,6 +245,82 @@ border-color: #c69;
     text-decoration: none;
     border-color: #c69;
 }
+
 .app i{
     font-size:  20px;
+}
+.app a:hover{
+    color: #c69;
+    font-size: 22px;  
+}
+
+
+form{
+    padding-inline: 15px;
+}
+
+.contact-me_escribime{
+    margin-bottom: 50px;
+}
+.contact-me_escribime h2{
+    font-size: 2.1875rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    display: block; 
+    margin-bottom: 4px; 
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea{
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    border: 1px solid #d7a38e;
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.submit_class {
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    border: 1px solid #d7a38e;
+    margin-top: 20px;
+    padding: 10px 15px;
+    width: 50%;
+}
+
+footer{
+    background-color: #f5e5d4;
+}
+
+.footer_logos{
+display: flex;
+justify-content: center;
+margin-top: 50px;
+margin-bottom: 40px;
+padding-top: 50px;
+
+}
+
+.logo i{
+    color: #d7a38e;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-style: dotted;
+    border-radius: 60px;
+    background-color: white;
+}
+.p_footer{
+    padding-bottom: 40px;
+}
+footer p{
+    padding-inline: 10px;
+    text-align: center;
+    
 }
