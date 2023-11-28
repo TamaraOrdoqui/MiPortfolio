@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'PT Serif', serif;
+    
 
 }
 
@@ -40,6 +41,7 @@
     text-align: center;
     margin: 15px;
     margin-bottom: 50px;
+    
 }
 
 .about-me p {
@@ -52,13 +54,6 @@
     font-size: 1.875rem;
 }
 
-.about-me button {
-    width: 150px;
-    margin: auto;
-    background-color: #f5e5d4;
-    border-radius: 15px;
-    padding-block: 10px;
-}
 
 img {
     width: 170px;
@@ -147,7 +142,7 @@ border-color: #c69;
 }
 
 /*Quote Section */
-.Quote{
+.quote{
     padding: 50px;
     width: 100%;
     background-color: #d7a38e;
@@ -161,7 +156,7 @@ border-color: #c69;
 
 }
 
-.Quote-edits p{
+.quote-edits p{
     color: wheat;
     font-size: 1.875rem;
     margin: 30px;
@@ -221,7 +216,7 @@ border-color: #c69;
     margin-top: 60px;
 }
 
-.Contactac-me_contact h2{
+.contactac-me_contact h2{
     font-size: 2.1875rem;
     margin-bottom: 30px;
     text-align: center;
@@ -322,3 +317,129 @@ footer p{
     text-align: center;
     
 }
+
+@media (min-width:970px) {
+
+    .body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    padding-inline: 20px;
+}
+
+.header {
+    display: block;
+    border-color: #dfcfbd;
+    box-shadow: 0px 5px 20px #d7a38e;
+    background-color: #edddce;
+
+}
+
+.nav-bar {
+        display: flex;
+        height: 100px;
+        font-family: 'Playfair Display', serif;
+        justify-content: end;
+        align-items: center;
+        list-style: none;
+}
+    
+
+
+.nav-bar li, a {
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    color: black;
+}
+
+.nav-bar a:hover{
+    color: #fefaf4;
+}
+
+#sobremi{
+margin-top: 100px;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+.about-me p{
+    font-size: 40px;
+}
+
+.about-me h1{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.about-me a{
+    font-size: 30px;
+    border-style: groove;
+    width: 200px;
+    margin: 60px auto;
+    background-color: #f5e5d4;
+    border-color: #d7a38e;
+    color: #d7a38e;
+    border-radius: 15px;
+    padding-block: 10px;
+    }
+    .about-me a:hover{
+        background-color: #dfcfbd;
+    }
+.about-me img{
+    width: 400px;
+    height: 500px;
+    margin-bottom: 30%;
+}
+
+#habilidades{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.experience h2{
+    font-size: 40px;
+}
+
+.experience_info {
+    font-size: 30px;
+}
+
+.icons-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-bottom: 100px;
+}
+
+.class_icon_experience {
+    width: 28%; 
+    height: 300px;
+    margin: 20px; 
+    text-align: center;
+}
+
+.class_icon_experience p {
+    font-size: 30px;
+}
+.class_icon_experience:hover{
+    border-color: #d7a38e;
+    border-style: dotted;
+
+}
+
+.quote-edits p{
+font-size: 55px;
+margin: 40px;
+}
+
+.quote-edits img{
+    width: 300px;
+}
+
+
+}
+
+
