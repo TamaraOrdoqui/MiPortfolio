@@ -29,6 +29,7 @@
     display: none;
 }
 
+/*Section - sobremi*/
 .about-me {
     display: flex;
     flex-direction: column;
@@ -38,7 +39,7 @@
 }
 
 .about-me a {
-    font-size: 20px;
+    font-size: 1.25rem;
     border-style: groove;
     width: 150px;
     margin: 20px auto;
@@ -66,6 +67,8 @@
     height: 400px;
     margin: 20px auto;
 }
+
+/*Section Habilidades*/
 
 #habilidades {
     background-color: #f6f7fb;
@@ -123,7 +126,6 @@
     margin: 20px;
 }
 
-/*ASIGNACION DE COLORES EN ICONOS USANDO BEFORE*/
 .fa-html5 {
     color: #e54d26;
 }
@@ -217,6 +219,7 @@
     border-color: black;
 }
 
+/*Section Contactame*/
 #contactame {
     display: flex;
     flex-direction: column;
@@ -260,10 +263,10 @@
 
 .app a:hover {
     color: #c69;
-    font-size: 22px;
+    font-size: 1.25rem;
 }
 
-
+/*Escribime */
 form {
     padding-inline: 15px;
 }
@@ -302,10 +305,10 @@ textarea {
     border: 1px solid #d7a38e;
     margin: 20px auto;
     padding: 10px 15px;
-    
-    
-}
 
+
+}
+/*Footer */
 footer {
     background-color: #f5e5d4;
 }
@@ -321,7 +324,7 @@ footer {
 
 .logo i {
     color: #d7a38e;
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -331,20 +334,20 @@ footer {
     background-color: white;
 }
 
-.p_footer p{
+.p_footer p {
     padding-block: 5px;
     text-align: center;
 
 }
 
 @media (min-width:970px) {
-
+/*Body */
     .body {
         height: 100vh;
         display: flex;
         padding-inline: 20px;
     }
-
+/*Header*/
     .header {
         display: block;
         border-color: #dfcfbd;
@@ -357,7 +360,7 @@ footer {
 
 
     }
-
+/*Nav*/
     .nav-bar {
         display: flex;
         height: 100px;
@@ -366,25 +369,20 @@ footer {
         align-items: center;
         list-style: none;
         margin-right: 30px;
-
-
     }
-
-
 
     .nav-bar li,
     a {
         text-decoration: none;
         margin: 20px;
-        font-size: 25px;
+        font-size: 1.563rem;
         color: black;
-
     }
 
     .nav-bar a:hover {
         color: #fefaf4;
     }
-
+/*Secton Sobremi*/
     #sobremi {
         margin-top: 200px;
         display: flex;
@@ -393,16 +391,16 @@ footer {
     }
 
     .about-me p {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .about-me h1 {
-        font-size: 40px;
+        font-size: 2.5rem;
         margin-bottom: 35px;
     }
 
     .about-me a {
-        font-size: 30px;
+        font-size: 1.875rem;
         border-style: groove;
         width: 200px;
         margin: 50px auto;
@@ -422,7 +420,7 @@ footer {
         height: 500px;
         margin-bottom: 30%;
     }
-
+/*Habilidades Section*/
     #habilidades {
         display: flex;
         justify-content: center;
@@ -430,11 +428,11 @@ footer {
     }
 
     .experience h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .experience_info {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .icons-section {
@@ -452,17 +450,18 @@ footer {
     }
 
     .class_icon_experience p {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .class_icon_experience:hover {
         border-color: #d7a38e;
         border-style: dotted;
-
     }
 
+
+/*Quote Section*/
     .quote-edits p {
-        font-size: 55px;
+        font-size: 3.438rem;
         margin: 40px;
     }
 
@@ -470,20 +469,21 @@ footer {
         width: 300px;
     }
 
+
+/*Proyectos Section*/
     .proyectos_section {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-
     }
 
     .proyectos_section h2 {
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
     .proyectos_section p {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .proyectos_section-img {
@@ -503,6 +503,7 @@ footer {
         aspect-ratio: 9/3;
     }
 
+    /*Contactame Section*/
     .contact-me {
         display: flex;
         flex-direction: row;
@@ -518,13 +519,10 @@ footer {
     .contactac-me_contact h2 {
         text-align: start;
         font-size: 40px;
-
-
-
     }
 
     .contactac-me_contact p {
-        font-size: 25px;
+        font-size: 2.5rem;
         margin-left: 0;
     }
 
@@ -543,16 +541,18 @@ footer {
     }
 
     .app i {
-        font-size: 30px;
+        font-size: 1.875rem;
         margin-left: 0%;
 
     }
 
     .app a:hover {
         color: #c69;
-        font-size: 22px;
+        font-size: 1.375rem;
     }
 
+
+/*Escribime*/
     .contact-me_escribime {
         width: 50%;
         height: 100%;
@@ -562,18 +562,18 @@ footer {
         font-size: 40px;
         text-align: start;
     }
-    
+
     .submit_class {
         margin-top: 20px;
     }
-    
-    
+
+
     label {
-        font-size: 22px;
+        font-size: 1.375rem;
         display: block;
-    
+
     }
-    
+
     input {
         font-size: 20px;
         padding: 10px;
@@ -581,36 +581,35 @@ footer {
         text-align: left;
         width: 70%;
     }
-    
+
     textarea {
         width: 400px;
-        font-size: 20px;
+        font-size: 1.25rem;
         padding: 10px;
         margin-bottom: 20px;
     }
-    
+
     .submit_class {
         text-align: center;
         display: inline-block;
         width: 20%;
         background-color: #f5e5d4;
-    border-color: #d7a38e;
-    color: #d7a38e;
-        
+        border-color: #d7a38e;
+        color: #d7a38e;
     }
-    
+
     .submit_class:hover {
         cursor: pointer;
         background-color: #f6e9e9;
     }
-    
-    .logo i:hover{
+
+    .logo i:hover {
         background-color: #f6e9e9;
     }
 
-   .p_footer p{
-    padding-bottom: 15px;
-   }
+    .p_footer p {
+        padding-bottom: 15px;
+    }
 
 
- }
+}
