@@ -46,7 +46,7 @@
         <div class="about-me">
           <img
             src="imagenes/womanimg-removebg-preview.png"
-            alt="Ilustration-portfolio"
+            alt="Ilustracion de mujer"
           />
         </div>
       </section>
@@ -98,7 +98,7 @@
           <div>
             <img
               src="imagenes/worldimg-removebg-preview.png"
-              alt="worldimg-removebg-preview"
+              alt="imagen de dibujo del mundo"
             />
           </div>
           <i class="fa-solid fa-quote-left"></i>
@@ -117,7 +117,7 @@
                 title="Mi Portfolio"
                 tabindex="6"
               >
-                <img src="imagenes/miportfolio.png" alt="miportfolio" />
+                <img src="imagenes/miportfolio.png" alt="imagen que hace referencia al proyecto mi portfolio" />
                 <p>Portfolio</p>
               </a>
             </div>
@@ -130,14 +130,14 @@
               >
                 <img
                   src="imagenes/GeneradorDeMemes.png"
-                  alt="GeneradorDeMemes"
+                  alt="Imagen que hace referencia al proyecto Generador de Memes"
                 />
                 <p>Generador de Memes</p>
               </a>
             </div>
             <div class="img_proyectos">
               <a href="#sobremi" target="_blank" title="Match 3" tabindex="8">
-                <img src="imagenes/match3.png" alt="match3" />
+                <img src="imagenes/match3.png" alt="Imagen que hace referencia al proyecto Match 3" />
                 <p>Match 3</p>
               </a>
             </div>
@@ -150,7 +150,7 @@
               >
                 <img
                   src="imagenes/controladorgastos.png"
-                  alt="controladorgastos"
+                  alt="imagen controlador de gastos para hacer referencia al proyecto"
                 />
                 <p>Controlador de gastos</p>
               </a>
@@ -162,13 +162,13 @@
                 title="Administrador de reuniones"
                 tabindex="10"
               >
-                <img src="imagenes/adminreuniones.png" alt="adminreuniones" />
+                <img src="imagenes/adminreuniones.png" alt="imagen de administrador de reuniones para hacer referencia" />
                 <p>Administrador de Reuniones</p>
               </a>
             </div>
             <div class="img_proyectos">
               <a href="#sobremi" target="_blank" title="Todo App" tabindex="11">
-                <img src="imagenes/todoapp.png" alt="todoapp" />
+                <img src="imagenes/todoapp.png" alt="imagen de App que hace referencia al proyecto de Todo App" />
                 <p>Todo App</p>
               </a>
             </div>
@@ -181,7 +181,7 @@
               >
                 <img
                   src="imagenes/buscadorpeliculas.png"
-                  alt="buscadorpeliculas"
+                  alt="imagen que hace referencia al buscador de peliculas"
                 />
                 <p>Buscador de Peliculas</p>
               </a>
@@ -232,6 +232,7 @@
             <form action="Escribime">
               <div class="nombre_apellido">
                 <div class="nombre_input">
+                  <div class="nombre_input--row">
                   <label for="nombre">Nombre*</label>
                   <input
                     type="text"
@@ -240,9 +241,8 @@
                     placeholder="Ingrese su nombre"
                     required
                     tabindex="17"
-                  />
-                </div>
-                <div class="apellido_input">
+                  /></div>
+                  <div class="nombre_input--row">
                   <label for="Apellido">Apellido*</label>
                   <input
                     type="text"
@@ -251,7 +251,7 @@
                     placeholder="Ingrese su Apellido"
                     required
                     tabindex="18"
-                  />
+                  /></div>
                 </div>
               </div>
               <div class="email_input">
@@ -270,8 +270,6 @@
                 <textarea
                   id="mensaje"
                   name="mensaje"
-                  rows="10"
-                  cols="30"
                   placeholder="Escriba un mensaje aqui"
                   required
                   tabindex="20"
@@ -291,7 +289,7 @@
       </section>
     </main>
     <footer>
-      <div class="footer_logos">
+      <nav class="footer_logos">
         <div class="logo">
           <a href="#sobremi" title="twitter" tabindex="22">
             <i class="fa-brands fa-twitter"></i>
@@ -320,12 +318,13 @@
             <i class="fa-brands fa-google"></i>
           </a>
         </div>
-      </div>
+      </div></nav>
       <div class="p_footer">
         <p>Mi primer Portfolio</p>
         <p>Hecho con amor y esfuerzo por:</p>
         <p>- Tami 🧿</p>
       </div>
+      
     </footer>
   </body>
 </html>
