@@ -9,6 +9,7 @@
 
 /* Body */
 .body {
+    display: flex;
     padding-inline: 20px;
 }
 
@@ -186,11 +187,13 @@
 .proyectos_section h2 {
     padding: 20px;
     font-size: 2.1875rem;
+    margin-left: 5px;
 }
 
 .proyectos_section p {
     font-size: 1.25rem;
     margin-inline: 15px;
+    margin-left: 5px;
 }
 
 .img_proyectos {
@@ -206,7 +209,7 @@
 .img_proyectos img {
     object-fit: contain;
     aspect-ratio: 3/2;
-    width: 70%;
+    width: 50%;
 }
 
 .img_proyectos a {
@@ -304,10 +307,7 @@ textarea {
     border: 1px solid #d7a38e;
     margin: 20px auto;
     padding: 10px 15px;
-
-
 }
-
 /*Footer */
 footer {
     background-color: #f5e5d4;
@@ -339,7 +339,6 @@ footer {
     text-align: center;
 
 }
-
 @media (min-width:970px) {
 
     /*Body */
@@ -464,7 +463,6 @@ footer {
         border-radius: 20px;
     }
         
-    }
 
     .class_icon_experience p {
         font-size: 1..5rem;
@@ -667,5 +665,3 @@ footer {
     .p_footer p {
         padding-bottom: 15px;
     }
-
-
