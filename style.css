@@ -344,8 +344,8 @@ footer {
     /*Body */
     .body {
         height: 100vh;
-        padding-inline: 20px;
-    }
+     padding-inline: 20px;   
+     }
 
     /*Header*/
     .header {
@@ -662,6 +662,33 @@ footer {
         background-color: #f6e9e9;
     }
 
+    .nav-bar_footer {
+        display: flex;
+        height: 50px;
+        font-family: 'Playfair Display', serif;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    .nav-bar_footer li,
+    a {
+        text-decoration: none;
+        font-size: 1.275rem;
+        color: black;
+    }
+
+    .nav-bar_footer a:hover {
+        color: #fefaf4;
+    }
+
+    .footer_logos {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding-top: 0;
+    }
+
     .p_footer p {
         padding-bottom: 15px;
-    }
+    }  }
