@@ -64,7 +64,6 @@
 
 .about-me img {
     width: 220px;
-    height: 400px;
     margin: 20px auto;
 }
 
@@ -225,6 +224,9 @@
 #contactame {
     display: flex;
     flex-direction: column;
+    background-color: #fff5ec;
+
+    
 }
 
 .contact-me {
@@ -251,6 +253,7 @@
     align-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
 
 .app a {
@@ -275,7 +278,7 @@ form {
 
 .contact-me_escribime {
     margin-bottom: 50px;
-    width: 300px;
+    width: 100%;
 }
 
 .contact-me_escribime h2 {
@@ -339,6 +342,10 @@ footer {
     text-align: center;
 
 }
+
+.nav-bar_footer {
+  display: none;
+}
 @media (min-width:970px) {
 
     /*Body */
@@ -387,9 +394,8 @@ footer {
     /*Secton Sobremi*/
     #sobremi {
         margin-top: 200px;
-        margin-left: 300px;
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: start;
         scroll-margin-top: 100px;
 
@@ -422,7 +428,6 @@ footer {
 
     .about-me img {
         width: 400px;
-        height: 500px;
         margin-bottom: 30%;
     }
 
@@ -489,6 +494,9 @@ footer {
 
     #proyectos {
         scroll-margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        
     }
 
     .proyectos_section {
@@ -496,6 +504,9 @@ footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        max-width: 1500px;
+        justify-content: center;
+        
     }
 
     .proyectos_section h2 {
@@ -527,6 +538,7 @@ footer {
     #contactame {
         padding: 15px 15px;
         scroll-margin-top: 100px;
+        margin-bottom: 120px;
     }
 
     .contact-me {
