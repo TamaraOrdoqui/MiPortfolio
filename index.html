@@ -136,7 +136,7 @@
               </a>
             </div>
             <div class="img_proyectos">
-              <a href="#sobremi" target="_blank" title="Match 3" tabindex="8">
+              <a href="#sobremi" onclick="openModal('Match3')" title="Match 3" tabindex="8">
                 <img src="imagenes/match3.png" alt="Imagen que hace referencia al proyecto Match 3" />
                 <p>Match 3</p>
               </a>
@@ -158,16 +158,14 @@
             <div class="img_proyectos">
               <a
                 href="#sobremi"
-                target="_blank"
-                title="Administrador de reuniones"
-                tabindex="10"
+            onclick="openModal('AdminReuniones')" title="Administrador de reuniones" tabindex="10"
               >
                 <img src="imagenes/adminreuniones.png" alt="imagen de administrador de reuniones para hacer referencia" />
                 <p>Administrador de Reuniones</p>
               </a>
             </div>
             <div class="img_proyectos">
-              <a href="#sobremi" target="_blank" title="Todo App" tabindex="11">
+              <a href="#sobremi" onclick="openModal('TodoApp')" title="Todo App" tabindex="11">
                 <img src="imagenes/todoapp.png" alt="imagen de App que hace referencia al proyecto de Todo App" />
                 <p>Todo App</p>
               </a>
@@ -175,9 +173,7 @@
             <div class="img_proyectos">
               <a
                 href="#sobremi"
-                target="_blank"
-                title="Buscador de Peliculas"
-                tabindex="12"
+                onclick="openModal('BuscadorPeliculas')" title="Buscador de Películas" tabindex="12"
               >
                 <img
                   src="imagenes/buscadorpeliculas.png"
@@ -187,6 +183,8 @@
               </a>
             </div>
           </div>
+              
+    </div>
         </div>
         <!-- final del div class proyectos_section -->
       </section>
@@ -332,9 +330,14 @@
         <p>Hecho con amor y esfuerzo por:</p>
         <p>- Tami 🧿</p>
       </div>
-    </div>
-      
-    </footer>
-    <script src="main.js"> </script>
-  </body>
+      <div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <p id="modalMessage"></p>
+  </div>
+</div>
+</footer> <!-- Esta es la etiqueta de cierre correcta para el footer -->
+<script src="main.js"></script>
+</body>
 </html>
+

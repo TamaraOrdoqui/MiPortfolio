@@ -331,6 +331,56 @@ footer {
 .nav-bar_footer {
 	display: none;
 }
+.modal {
+	display: none; /* La modal estará oculta inicialmente */
+	position: fixed; /* Se posiciona sobre el contenido */
+	z-index: 1000; /* Z-index alto para que esté por encima del resto del contenido */
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto; /* Permite desplazamiento si la modal es más grande que la ventana */
+	background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+}
+
+/* Estilos para el contenido de la modal */
+.modal-content {
+	background-color: #fefefe;
+	margin: 50% auto; /* Centra la modal verticalmente */
+	padding: 20px;
+	border: 1px solid #888;
+	width: 60%; /* Ancho de la modal */
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	animation-name: modalopen; /* Agrega animación de apertura */
+	animation-duration: 0.4s;
+}
+
+/* Animación de apertura de la modal */
+@keyframes modalopen {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* Estilos para el botón de cerrar */
+.close {
+	color: #aaaaaa;
+	float: right;
+	margin-top: -15px; /* Ajusta este valor para mover la cruz hacia arriba */
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
 
 @media (min-width: 970px) {
 	/*Body */
@@ -675,5 +725,57 @@ footer {
 
 	.p_footer p {
 		padding-bottom: 15px;
+	}
+
+	/* Estilos para la modal */
+	.modal {
+		display: none; /* La modal estará oculta inicialmente */
+		position: fixed; /* Se posiciona sobre el contenido */
+		z-index: 1000; /* Z-index alto para que esté por encima del resto del contenido */
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto; /* Permite desplazamiento si la modal es más grande que la ventana */
+		background-color: rgba(0, 0, 0, 0.4); /* Fondo semitransparente */
+	}
+
+	/* Estilos para el contenido de la modal */
+	.modal-content {
+		background-color: #fefefe;
+		margin: 15% auto; /* Centra la modal verticalmente */
+		padding: 20px;
+		border: 1px solid #888;
+		width: 40%; /* Ancho de la modal */
+		border-radius: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		animation-name: modalopen; /* Agrega animación de apertura */
+		animation-duration: 0.4s;
+	}
+
+	/* Animación de apertura de la modal */
+	@keyframes modalopen {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+
+	/* Estilos para el botón de cerrar */
+	.close {
+		color: #aaaaaa;
+		float: right;
+		margin-top: -15px; /* Ajusta este valor para mover la cruz hacia arriba */
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.close:hover,
+	.close:focus {
+		color: #000;
+		text-decoration: none;
+		cursor: pointer;
 	}
 }
